@@ -1,0 +1,4 @@
+site_name: Security Test
+theme:
+  name: material
+  custom_dir: overrides  # This is the "bypass" key
