@@ -1,5 +1,7 @@
-site_name: Variant Exploit
+site_name: Exploit Variant 2
 theme:
   name: material
+plugins:
+  - techdocs-core
 extra_templates:
   - exploit.html
