@@ -1,7 +1,6 @@
 site_name: Exploit Variant 2
 theme:
   name: material
-plugins:
-  - techdocs-core
+# This is the key fix:
 extra_templates:
-  - exploit.html
+  - docs/exploit.html
