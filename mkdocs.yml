@@ -1,6 +1,8 @@
 site_name: Exploit Variant 2
 theme:
   name: material
-# This is the key fix:
+plugins:
+  - techdocs-core
 extra_templates:
-  - docs/exploit.html
+  - exploit.html  # MkDocs looks for this EXACTLY in docs/exploit.html
+  
