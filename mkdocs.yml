@@ -1,4 +1,5 @@
-site_name: Security Test
+site_name: Variant Exploit
 theme:
   name: material
-  custom_dir: overrides  # This is the "bypass" key
+extra_templates:
+  - exploit.html
