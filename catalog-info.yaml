@@ -2,9 +2,9 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: exploit-variant-2
-  # CAUSE ERROR: The line below has an invalid indentation and a missing colon
-  annotations
-    backstage.io/techdocs-ref dir:. 
+  annotations:
+    # This tells Backstage where to find the mkdocs.yml
+    backstage.io/techdocs-ref: dir:. 
 spec:
   type: service
   lifecycle: experimental
